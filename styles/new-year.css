@@ -1,0 +1,162 @@
+* {
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    font-size: 20px;
+    color: #005FAC;
+    font-weight: 600px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 21px;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #444343;
+}
+
+/* header styles */
+header {
+    padding : 220px 70px  200px 850px;
+    text-align: right;
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-title {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+header .description {
+    color: white;
+    margin-bottom: 32px;
+}
+
+/* failures section styles */
+.failure-container {
+    display: flex;
+    gap: 105px;
+}
+
+.item-image {
+    margin-top: 140px;
+    margin-left: 150px;
+}
+
+.item-about {
+    margin-top: 370px;
+    margin-right: 150px;
+}
+
+.check {
+    height: 20px;
+}
+
+.check-list {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 8px;
+    color: #444343;
+}
+
+.item-about .section-title {
+    margin-bottom: 24px;
+}
+
+.item-about .section-description {
+    margin-bottom: 20px;
+}
+
+/* plan section styles */
+.plan-item {
+    text-align: center;
+}
+
+.plan-container {
+    display: flex;
+    gap: 99px;
+    justify-content: center;
+}
+
+.plans .section-title {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+/* mindset section styles */
+.mindset {
+    margin: 135px 230px 130px 230px;
+    background-image:  url('../images/watch.png');
+    border-radius: 8px;
+    background-repeat: no-repeat;
+}
+
+.positive-mindset {
+    background-image: url('../images/gradient1.png');
+    border-radius: 8px;
+    background-repeat: no-repeat;
+}
+
+.mindset-items {
+    padding: 59px 300px 50px 64px;
+    color: white;
+}
+
+.mindset-items .section-title {
+    margin-bottom: 24px;
+}
+
+/* footer styles */
+footer {
+    background-color: black;
+}
+
+.footer-container {
+    color: white;
+    display: flex;
+    gap: 331px;
+    padding: 130px;
+}
+
+.future .section-description {
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.future .section-title {
+    font-size: 45px;
+}
+
+.subscribe h4 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#enter-email {
+    width: 325px;
+    border:1px solid white;
+    border-radius: 8px;
+    padding: 21px 0px 21px 21px;
+    background-color: black;
+    font-size: 18px;
+    margin-top: 31px;
+    margin-bottom: 16px;
+}
+
+.subscribe .btn-primary {
+    border-radius: 8px;
+    background-color: #005FAC;
+    color: white;
+}
